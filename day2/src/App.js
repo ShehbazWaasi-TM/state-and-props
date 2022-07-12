@@ -6,8 +6,8 @@ import Mycomponent from './Mycomponent';
 
 function App() {
   let arr=["Default","bar","foo"] 
-  let list1 = ["Walk, ","Cook, ","Bake"]
-  let list2 = ["Study, ","Code, ","Eat"]
+  let list1 = ["Walk","Cook","Bake"]
+  let list2 = ["Study","Code","Eat"]
   return (
     <div className="App">
       {arr.map((x)=><Child name={x}/>)}
