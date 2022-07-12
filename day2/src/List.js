@@ -3,7 +3,7 @@ import React from 'react'
 const List = (props) => {
   return (
     <>
-    <p>{props.list}</p>
+    <p>{props.list.join(", ")}</p>
     </>
   )
 }
